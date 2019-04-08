@@ -18,7 +18,7 @@ class String
     binding.pry
     array = self.split(".")
     array.map! {|item| item.split("?")}
-    array.map! {|item| item.split("1")}
+    array.map! {|item| item.split("!")}
     array.length
   end
 end
